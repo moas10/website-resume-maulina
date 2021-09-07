@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(255, 254, 224);
+    font: 14px;
+}
+
+h4{
+    color:rebeccapurple;
+}
+
+.ig_icon{
+    width: 30px;
+}
+
+.fb_icon{
+    width: 30px;
+}
+
+.wa_icon{
+    width: 30px;
+}
+
+.foto{
+    width: 200px;
+}
+
+.container{
+    display: grid;
+    background-color:mistyrose;
+    /*margin: auto; */
+    grid-template-areas: "education experience skill";
+    padding: 20px;
+}
+
+.footer{
+    text-align: center;
+    color:white;
+    background-color: red;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
